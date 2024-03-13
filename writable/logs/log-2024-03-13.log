@@ -1,0 +1,212 @@
+CRITICAL - 2024-03-13 12:07:38 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Commands/Database/CreateDatabase.php(152): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+ 5 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+ 6 ROOTPATH/spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-13 12:12:03 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Commands/Database/CreateDatabase.php(152): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+ 5 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+ 6 ROOTPATH/spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-13 12:12:41 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Commands/Database/CreateDatabase.php(152): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+ 5 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+ 6 ROOTPATH/spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-13 12:23:01 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Commands/Database/CreateDatabase.php(152): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+ 5 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+ 6 ROOTPATH/spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2024-03-13 14:01:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2024-03-13 14:04:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2024-03-13 14:04:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2024-03-13 14:15:23 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#8 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2024-03-13 14:16:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'flores'@'localhost' (using password: NO) in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2024-03-13 14:17:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'flores'@'localhost' (using password: YES) in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2024-03-13 14:17:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#7 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Database/Config.php(109): CodeIgniter\Database\Database->loadForge()
+#3 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run()
+#5 /home/flores/Escritorio/CI4-StarterPanel/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#6 /home/flores/Escritorio/CI4-StarterPanel/spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2024-03-13 15:32:05 --> include(common/alerts): Failed to open stream: No such file or directory
+in APPPATH/Views/common/login.php on line 26.
+ 1 APPPATH/Views/common/login.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/common/login.php(26): include()
+ 3 SYSTEMPATH/View/View.php(213): include('/home/flores/Escritorio/CI4-StarterPanel/app/Views/common/login.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Welcome.php(19): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Welcome->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/flores/Escritorio/CI4-StarterPanel/public/index.php')
